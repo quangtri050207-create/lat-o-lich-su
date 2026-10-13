@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Đánh giá về thành tựu của công cuộc Đổi mới, Đại hội XIII đã đưa ra lời khẳng định mang tính lịch sử nào về vị thế của đất nước ta?",
+    "options": ["Đất nước ta đã hoàn thành xuất sắc mục tiêu trở thành một siêu cường kinh tế", "Đất nước ta chưa bao giờ có được cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay", "Đất nước ta đã giải quyết triệt để mọi vấn đề về nghèo đói và bất bình đẳng xã hội", "Đất nước ta đã vượt qua hoàn toàn các nước trong khu vực về thu nhập bình quân"],
+    "correct": 1
+  },
+  {
+    "id": 2,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Đại hội XII của Đảng được xác định là đại hội:",
+    "options": ["Dân chủ - Kỷ cương - Hội nhập - Phát triển", "Trí tuệ - Dân chủ - Đoàn kết - Đổi mới", "Đoàn kết - Dân chủ - Kỷ cương - Sáng tạo", "Đoàn kết - Dân chủ - Kỷ cương - Đổi mới"],
+    "correct": 3
+  },
+  {
+    "id": 3,
+    "type": "speedup",
+    "typeName": "⚡ CÂU TĂNG TỐC",
+    "question": "Phát triển kinh tế tư nhân trở thành một động lực quan trọng của nền kinh tế thị trường định hướng XHCN là quan điểm của Đảng ở thời điểm nào?",
+    "options": ["2017", "2018", "2016", "2019"],
+    "correct": 0
+  },
+  {
+    "id": 4,
+    "type": "bet",
+    "typeName": "🎲 CÂU ĐẶT CƯỢC",
+    "question": "Đại hội XIII của Đảng đã vạch ra tầm nhìn chiến lược phát triển đất nước với các mốc thời gian cụ thể. Mục tiêu phát triển đất nước đến năm 2030 (Kỷ niệm 100 năm thành lập Đảng) được xác định là gì?",
+    "options": ["Là nước đang phát triển, có công nghiệp theo hướng hiện đại, vượt qua mức thu nhập trung bình thấp", "Là nước đang phát triển, có công nghiệp hiện đại, thu nhập trung bình cao", "Cơ bản trở thành nước công nghiệp theo hướng hiện đại, thu nhập trung bình cao", "Là nước phát triển, thu nhập cao"],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "type": "steal",
+    "typeName": "⚔️ CÂU CƯỚP ĐIỂM",
+    "question": "Đại hội XII chủ trương xây dựng con người trên những khía cạnh nào?",
+    "options": ["Tư tưởng chính trị và đạo đức ,nhân cách, lối sống , trí tuệ và kỹ năng, nền tảng đời sống", "Đạo đức, nhân cách, lối sống, trí tuệ và năng lực việc làm, xây dựng môi trường văn hoá lành mạnh", "Xây dựng con người Việt Nam phát triển toàn diện, lấy nhân tố con người và an ninh con người làm trung tâm của mọi sự phát triển", "Đạo đức, trí tuệ, ý thức dân tộc, trách nhiệm công dân và tinh thần cống hiến"],
+    "correct": 1
+  },
+  {
+    "id": 6,
+    "type": "lucky",
+    "typeName": "🎁 HỘP QUÀ MAY MẮN",
+    "question": "Chúc mừng! Bạn đã mở được ô May Mắn! Ban tổ chức sẽ tặng bạn +15 điểm hoặc 1 phần quà hiện vật bất ngờ mà không cần trả lời câu hỏi lịch sử!",
+    "options": ["Nhận 15 điểm hệ thống", "Nhận quà hiện vật từ MC", "Nhường quà cho nhóm khác", "Nhân đôi niềm vui"],
+    "correct": 0
+  },
+  {
+    "id": 7,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Một trong 6 nhiệm vụ trọng tâm được đề ra tại đại hội XII là: 'Tăng cường xây dựng, chỉnh đốn Đảng; ngăn chặn, đẩy lùi sự suy thoái về tư tưởng......., đạo đức, lối sống, biểu hiện 'tự diễn biến','.......' trong nội bộ. Tập trung xây dựng đội ngũ cán bộ, nhất là đội ngũ cán bộ cấp chiến lược, đủ năng lực, phẩm chất và uy tín, ngang tầm nhiệm vụ.' Hãy điền từ còn thiếu vào chỗ trống.",
+    "options": ["Chính trị, tự biến đổi", "Văn hóa, tự biến đổi", "Chính trị, tự chuyển hóa", "Văn hóa, tự chuyển hóa"],
+    "correct": 2
+  },
+  {
+    "id": 8,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Đại hội XII của Đảng đã tiến hành tổng kết cột mốc lịch sử quan trọng nào của đất nước tính từ năm 1986?",
+    "options": ["20 năm thực hiện công cuộc Đổi mới", "25 năm thực hiện công cuộc Đổi mới", "30 năm thực hiện công cuộc Đổi mới", "35 năm thực hiện công cuộc Đổi mới"],
+    "correct": 2
+  },
+  {
+    "id": 9,
+    "type": "speedup",
+    "typeName": "⚡ CÂU TĂNG TỐC",
+    "question": "Về đối ngoại, cả Đại hội XII và Đại hội XIII đều kiên trì đường lối nhất quán nào để bảo đảm lợi ích tối cao của quốc gia - dân tộc?",
+    "options": ["Chỉ thiết lập quan hệ ngoại giao với các nước trong cùng khu vực địa lý", "Tham gia liên minh quân sự với các nước lớn để bảo vệ chủ quyền", "Đóng cửa nền kinh tế để thực hiện tự cung tự cấp, hạn chế giao lưu", "Độc lập, tự chủ, hòa bình, hợp tác và phát triển; đa phương hóa, đa dạng hóa quan hệ đối ngoại"],
+    "correct": 3
+  },
+  {
+    "id": 10,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Theo rút kinh nghiệm về mặt chỉ đạo chiến lược tại Đại hội XII, các nhiệm vụ trọng tâm được gắn kết hài hòa như thế nào?",
+    "options": ["Xây dựng Đảng là trung tâm; phát triển kinh tế - xã hội là then chốt", "Phát triển văn hóa là trung tâm; bảo đảm quốc phòng an ninh là then chốt", "Phát triển khoa học công nghệ là trung tâm; xây dựng Đảng là then chốt", "Phát triển kinh tế - xã hội là trung tâm; xây dựng Đảng là then chốt"],
+    "correct": 3
+  },
+  {
+    "id": 11,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Một trong những nhiệm vụ trọng tâm được Đại hội XII đề ra là:",
+    "options": ["Nâng cao năng lực lãnh đạo và sức chiến đấu của Đảng", "Giảm quy mô hội nhập quốc tế", "Hạn chế phát triển kinh tế tư nhân", "Xóa bỏ kinh tế thị trường"],
+    "correct": 0
+  },
+  {
+    "id": 12,
+    "type": "steal",
+    "typeName": "⚔️ CÂU CƯỚP ĐIỂM",
+    "question": "Trong nhận định của Đảng tại Đại hội XIII (2021), khi đề cập đến việc quán triệt sâu sắc quan điểm 'dân là gốc', phương châm truyền thống đã được bổ sung và hoàn thiện thành nội dung nào dưới đây?",
+    "options": ["Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát", "Dân biết, dân bàn, dân làm, dân kiểm tra, dân phản biện", "Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng", "Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân phản biện, dân thụ hưởng"],
+    "correct": 2
+  },
+  {
+    "id": 13,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Trong ba đột phá chiến lược được Đại hội XIII xác định, nội dung về “hoàn thiện thể chế” có điểm mới gì quan trọng so với các nhiệm kỳ trước?",
+    "options": ["Nhấn mạnh việc hoàn thiện đồng bộ thể chế phát triển, trước hết là thể chế kinh tế thị trường định hướng xã hội chủ nghĩa", "Ưu tiên xây dựng thể chế đặc quyền dành riêng cho khu vực kinh tế có vốn đầu tư nước ngoài (FDI)", "Quay trở lại mô hình quản lý tập trung bằng mệnh lệnh hành chính để kiểm soát lạm phát nhanh chóng", "Chỉ tập trung sửa đổi các quy định pháp luật về thị trường chứng khoán và bất động sản"],
+    "correct": 0
+  },
+  {
+    "id": 14,
+    "type": "speedup",
+    "typeName": "⚡ CÂU TĂNG TỐC",
+    "question": "Hãy nối đúng nhất giữa Hội nghị Trung ương với các Nội dung tương ứng:\n1. Hội nghị TW 4\n2. Hội nghị TW 5\n3. Hội nghị TW 6\n4. Hội nghị TW 7\n\na. Phát triển kinh tế tư nhân và hoàn thiện thể chế kinh tế thị trường.\nb. Xây dựng đội ngũ cán bộ các cấp.\nc. Chăm sóc, nâng cao sức khỏe nhân dân và công tác dân số.\nd. Chống \"tự diễn biến\", \"tự chuyển hóa\".",
+    "options": ["1-a, 2-b, 3-c, 4-d", "1-d, 2-a, 3-c, 4-b", "1-d, 2-c, 3-a, 4-b", "1-b, 2-a, 3-d, 4-c"],
+    "correct": 1
+  },
+  {
+    "id": 15,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Từ thực tiễn công cuộc đổi mới, trực tiếp là 5 năm thực hiện Nghị quyết Đại hội XI, Đại hội XII đã rút ra bao nhiêu bài học kinh nghiệm?",
+    "options": ["3", "4", "6", "5"],
+    "correct": 3
+  },
+  {
+    "id": 16,
+    "type": "bet",
+    "typeName": "🎲 CÂU ĐẶT CƯỢC",
+    "question": "Quan điểm chỉ đạo của TW tại hội nghị TW 4 khoá XII (10/2016) là:",
+    "options": ["Tuyệt đối không chủ quan, lơ là, mất cảnh giác, nhưng cũng không hoang mang, dao động; luôn bình tĩnh, tự tin, bản lĩnh, chủ động, linh hoạt, sáng tạo trong lãnh đạo, chỉ đạo điều hành, không chuyển trạng thái đột ngột, điều hành 'giật cục'", "Đồng bộ, thống nhất và quyết tâm, quyết liệt trong chỉ đạo, điều hành, vừa tập trung xử lý hiệu quả các nhiệm vụ thường xuyên, các vấn đề tồn đọng kéo dài, vừa kịp thời ứng phó hiệu quả với những vấn đề cấp bách, đồng thời thực hiện các nhiệm vụ, giải pháp mang tính căn cơ trong trung và dài hạn", "Kiên định đường lối đối ngoại độc lập, tự chủ, đa dạng hoá, đa phương hoá quan hệ quốc tế, chủ động tích cực hội nhập kinh tế quốc tế vì lợi ích quốc gia- dân tộc là định hướng chiến lược lớn để xây dựng và bảo vệ Tổ quốc", "Tiếp tục củng cố, giữ vững quốc phòng, an ninh; đẩy mạnh các hoạt động đối ngoại, nâng cao chất lượng, hiệu quả hội nhập quốc tế; đảm bảo môi trường ổn định, hòa bình, hợp tác để thúc đẩy phát triển nhanh, bền vững"],
+    "correct": 2
+  },
+  {
+    "id": 17,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Đại hội XIII xác định nội dung đột phá chiến lược thứ hai về nguồn nhân lực là gì?",
+    "options": ["Phát triển nguồn nhân lực toàn diện; ưu tiên đào tạo công nhân kỹ thuật cho các khu công nghiệp", "Phát triển nguồn nhân lực chất lượng cao; ưu tiên nhân lực cho lãnh đạo, quản lý và các lĩnh vực then chốt", "Phát triển nguồn nhân lực chất lượng cao; ưu tiên nhân lực cho các vùng kinh tế trọng điểm", "Phát triển nguồn nhân lực gắn với khoa học công nghệ; ưu tiên nhân lực cho chuyển đổi số quốc gia"],
+    "correct": 1
+  },
+  {
+    "id": 18,
+    "type": "speedup",
+    "typeName": "⚡ CÂU TĂNG TỐC",
+    "question": "Mục tiêu Đại hội XII đưa ra là gì",
+    "options": ["Đưa nước ta trở thành nước đang phát triển có công nghiệp hiện đại, thu nhập trung bình cao vào năm 2030, tiến tới tầm nhìn trở thành nước phát triển, thu nhập cao vào năm 2045", "Thực hiện nhất quán đường lối đối ngoại độc lập tự chủ, mở rộng hợp tác quốc tế, phấn chuyển từ 'muốn là bạn' sang phương châm 'sẵn sàng là bạn, là đối tác tin cậy' của các quốc gia", "Vượt khó khăn thử thách ổn định và phát triển kinh tế, xã hội, tăng cường ổn định chính trị, đẩy lùi tiêu cực và bất công xã hội, đưa nước ta cơ bản thoát khỏi tình trạng khủng hoảng hiện nay", "Phấn đấu sớm đưa nước ta cơ bản trở thành nước công nghiệp hoá theo hướng hiện đại"],
+    "correct": 3
+  },
+  {
+    "id": 19,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Đại hội XII xác định nhân dân là:",
+    "options": ["Đối tượng quản lý của Nhà nước", "Chủ thể của công cuộc đổi mới", "Lực lượng lao động đơn thuần", "Đối tượng thụ hưởng chính sách"],
+    "correct": 1
+  },
+  {
+    "id": 20,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "So với chủ đề Đại hội XII, chủ đề Đại hội XIII bổ sung thêm nội dung nào sau đây?",
+    "options": ["Khơi dậy khát vọng phát triển đất nước, phát huy ý chí", "Bảo vệ vững chắc Tổ quốc, giữ vững môi trường hòa bình, ổn định", "Đẩy mạnh toàn diện, đồng bộ công cuộc đổi mới", "Xây dựng Đảng và hệ thống chính trị trong sạch, vững mạnh"],
+    "correct": 0
+  },
+  {
+    "id": 21,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Theo Quy định về trách nhiệm nêu gương được thông qua tại Hội nghị TW 8 khóa XII, những đối tượng nào được yêu cầu phải thực hiện nêu gương trước tiên và cao nhất?",
+    "options": ["Toàn thể đảng viên trong cả nước", "Cán bộ lãnh đạo cấp xã, phường và thị trấn", "Cán bộ, công chức làm việc trong các cơ quan nhà nước", "Ủy viên Bộ Chính trị, Ủy viên Ban Bí thư, Ủy viên Ban Chấp hành Trung ương"],
+    "correct": 3
+  },
+  {
+    "id": 22,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Điền từ: Đại hội XIII đặt mục tiêu tổng quát là nâng cao năng lực lãnh đạo, năng lực cầm quyền và sức chiến đấu của Đảng; xây dựng Đảng và hệ thống chính trị trong sạch, vững mạnh toàn diện; củng cố, tăng cường ______ của nhân dân đối với Đảng, Nhà nước, chế độ XHCN.",
+    "options": ["niềm tin", "sức mạnh", "khát vọng", "lòng tin"],
+    "correct": 0
+  },
+  {
+    "id": 23,
+    "type": "speedup",
+    "typeName": "⚡ CÂU TĂNG TỐC",
+    "question": "Sắp xếp đúng thứ tự 3 đột phá chiến lược được Đại hội XII xác định:",
+    "options": ["Phát triển nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao; Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; Xây dựng hệ thống kết cấu hạ tầng đồng bộ", "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; Xây dựng hệ thống kết cấu hạ tầng đồng bộ; Phát triển nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao", "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; Phát triển nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao; Xây dựng hệ thống kết cấu hạ tầng đồng bộ", "Xây dựng hệ thống kết cấu hạ tầng đồng bộ; Phát triển nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao; Hoàn thiện thể chế kinh tế thị trường định hướng XHCN"],
+    "correct": 2
+  },
+  {
+    "id": 24,
+    "type": "normal",
+    "typeName": "CÂU HỎI THƯỜNG",
+    "question": "Đại hội XIII xác định có bao nhiêu nhiệm vụ trọng tâm cần tập trung lãnh đạo, chỉ đạo thực hiện trong nhiệm kỳ?",
+    "options": ["4", "5", "6", "7"],
+    "correct": 2
+  },
+  {
+    "id": 25,
+    "type": "mine",
+    "typeName": "💣 CÂU DÍNH MÌN",
+    "question": "Một trong những nhiệm vụ chủ yếu trên lĩnh vực kinh tế được Đại hội XII đề ra để phát triển đất nước nhanh và bền vững là gì?",
+    "options": ["Đổi mới mô hình tăng trưởng, cơ cấu lại nền kinh tế, đẩy mạnh công nghiệp hoá, hiện đại hoá đất nước", "Xây dựng nền kinh tế độc lập, tự chủ cao, đồng thời chủ động và tích cực hội nhập kinh tế quốc tế sâu rộng", "Phát triển kinh tế tư nhân trở thành một động lực quan trọng nhất để bứt phá nền kinh tế", "Tập trung phát triển kinh tế tri thức và kinh tế số để theo kịp xu hướng của Cách mạng công nghiệp lần thứ tư"],
+    "correct": 0
+  }
+]
