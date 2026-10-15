@@ -81,12 +81,12 @@
     "id": 7,
     "type": "normal",
     "typeName": "CÂU HỎI THƯỜNG",
-    "question": "Theo tinh thần Đại hội X về phát huy sức mạnh toàn dân tộc, cách tiếp cận nào phù hợp nhất khi phát triển kinh tế gây ảnh hưởng môi trường và sinh kế người dân?",
+    "question": "Theo tinh thần Đại hội X về phát huy sức mạnh toàn dân tộc, cách tiếp cận nào phù hợp nhất khi phát triển kinh tế gây ảnh hưởng đến môi trường và sinh kế của một bộ phận người dân?",
     "options": [
-      "Ưu tiên tối đa hóa lợi nhuận doanh nghiệp",
-      "Ưu tiên tuyệt đối lợi ích của người dân, bất kể ngành nghề",
-      "Điều chỉnh chính sách theo hướng dung hòa các lợi ích chính đáng, gắn phát triển kinh tế với bảo vệ môi trường và quyền lợi của người dân",
-      "Giữ nguyên chính sách vì đây là điều tất yếu trong phát triển"
+      "Ưu tiên tối đa hóa lợi nhuận doanh nghiệp vì đây là động lực trực tiếp thúc đẩy tăng trưởng kinh tế",
+      "Ưu tiên tuyệt đối lợi ích của người dân bị ảnh hưởng, bất kể tác động đến việc làm và hoạt động sản xuất",
+      "Điều chỉnh chính sách theo hướng dung hòa các lợi ích chính đáng, gắn phát triển kinh tế với bảo vệ môi trường, bảo đảm quyền lợi của người dân và tuân thủ pháp luật",
+      "Giữ nguyên chính sách vì mọi sự đánh đổi lợi ích đều là điều tất yếu trong quá trình phát triển"
     ],
     "correct": 2
   },
@@ -96,7 +96,7 @@
     "typeName": "CÂU HỎI THƯỜNG",
     "question": "Ba định hướng kinh tế ẩn sau ba hình ảnh trong dấu mốc quan trọng năm 2006 là:",
     "options": [
-      "Hoàn thiện thể chế kinh tế thị trường định hướng XHCN; Đẩy mạnh CNH-HĐH gắn với phát triển kinh tế tri thức; Tích cực hội nhập kinh tế quốc tế",
+      "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa; Đẩy mạnh công nghiệp hóa - hiện đại hóa gắn với phát triển kinh tế tri thức; Tích cực hội nhập kinh tế quốc tế",
       "Đóng cửa kinh tế; phát triển nông nghiệp cổ truyền; kiểm soát chặt ngoại thương",
       "Tăng cường quân sự; mở rộng canh tác rừng; khuyến khích xuất khẩu lao động",
       "Mở rộng phân phối bằng tiền mặt; bỏ qua hội nhập; giảm viện trợ"
@@ -107,10 +107,10 @@
     "id": 9,
     "type": "normal",
     "typeName": "CÂU HỎI THƯỜNG",
-    "question": "Bốn mảnh ghép: 'Thế kỷ của Đại dương - Biển Đông - Địa kinh tế - Địa chính trị - Tài nguyên biển' gợi đến chiến lược biển Việt Nam được xác định với tầm nhìn đến năm 2020. Đó là chiến lược được nêu trong văn bản nào?",
+    "question": "Bốn mảnh ghép: 'THẾ KỶ CỦA ĐẠI DƯƠNG - BIỂN ĐÔNG - ĐỊA KINH TẾ – ĐỊA CHÍNH TRỊ - TÀI NGUYÊN BIỂN' gợi đến chủ trương chiến lược nào của Đảng được xác định với tầm nhìn đến năm 2020? Hãy cho biết chiến lược này được nhắc đến trong văn bản nào?",
     "options": [
       "Nghị quyết 09-NQ/TW ngày 09/3/2007 về chiến lược biển Việt Nam đến 2020",
-      "Nghị quyết 21-NQ/TW ngày 30/1/2008 về thể chế thị trường",
+      "Nghị quyết 21-NQ/TW ngày 30/1/2008 về thể chế kinh tế thị trường",
       "Nghị quyết 15/2008/QH12 về địa giới hành chính Hà Nội",
       "Nghị quyết 23-NQ/TW về xây dựng Đảng"
     ],
@@ -122,8 +122,8 @@
     "typeName": "CÂU HỎI THƯỜNG",
     "question": "Từ khóa 'thể chế – thị trường – định hướng xã hội chủ nghĩa' gợi nhắc đến Nghị quyết nào của Đảng?",
     "options": [
-      "Nghị quyết số 21-NQ/TW ngày 30/1/2008 về tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng XHCN",
-      "Nghị quyết 09-NQ/TW về biển Việt Nam",
+      "Nghị quyết số 21-NQ/TW ngày 30/1/2008 về tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa",
+      "Nghị quyết 09-NQ/TW về chiến lược biển Việt Nam",
       "Nghị quyết 15/2008/QH12 về điều chỉnh địa giới hành chính",
       "Nghị quyết 28-NQ/TW về kinh tế tư nhân"
     ],
@@ -133,7 +133,7 @@
     "id": 11,
     "type": "normal",
     "typeName": "CÂU HỎI THƯỜNG",
-    "question": "Dựa vào thông tin: thời gian 2008, Quốc hội khóa XII, bản đồ địa giới hành chính Hà Nội từ ngày 1/8/2008. Đây là Nghị quyết nào?",
+    "question": "Dựa vào thông tin: thời gian 2008; Quốc hội khóa XII; bản đồ địa giới hành chính Hà Nội kể từ ngày 01/08/2008. Đây là Nghị quyết nào?",
     "options": [
       "Nghị quyết số 15/2008/QH12 của Quốc hội khóa XII về điều chỉnh địa giới hành chính thành phố Hà Nội và một số tỉnh, thành phố có liên quan",
       "Nghị quyết số 09-NQ/TW về chiến lược biển Việt Nam",
@@ -146,7 +146,7 @@
     "id": 12,
     "type": "normal",
     "typeName": "CÂU HỎI THƯỜNG",
-    "question": "Nghị quyết Trung ương nào được ban hành vào ngày 30/01/2008 và có nội dung tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng XHCN?",
+    "question": "Nghị quyết Trung ương nào được ban hành vào ngày 30/01/2008 và có nội dung tiếp tục hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa?",
     "options": [
       "Nghị quyết số 21-NQ/TW",
       "Nghị quyết số 09-NQ/TW",
