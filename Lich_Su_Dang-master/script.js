@@ -5,7 +5,8 @@ let teams = [
     { id: 2, name: "Nhóm 2", score: 10 },
     { id: 3, name: "Nhóm 3", score: 10 },
     { id: 4, name: "Nhóm 4", score: 10 },
-    { id: 5, name: "Nhóm 5", score: 10 }
+    { id: 5, name: "Nhóm 5", score: 10 },
+    { id: 6, name: "Nhóm 6", score: 10 }
 ];
 
 let currentTeamIndex = 0; // Nhóm 1 xuất phát trước (index = 0)
@@ -49,7 +50,7 @@ function renderScoreboard() {
     const scoreboardDiv = document.getElementById("scoreboard");
     scoreboardDiv.innerHTML = "";
     
-    // Sắp xếp bản sao để xem thứ hạng nhưng vẫn giữ nguyên thứ tự hiển thị cố định từ Nhóm 1 - Nhóm 5
+    // Sắp xếp bản sao để xem thứ hạng nhưng vẫn giữ nguyên thứ tự hiển thị cố định từ Nhóm 1 - Nhóm N
     const sortedTeams = [...teams].sort((a,b) => b.score - a.score);
 
     teams.forEach(team => {
@@ -63,8 +64,8 @@ function renderScoreboard() {
 
         // Gắn huy hiệu top hạng màu sắc dựa trên điểm số hiện tại
         if (team.id === sortedTeams[0].id) card.classList.add("rank-1");
-        else if (team.id === sortedTeams[1].id) card.classList.add("rank-2");
-        else if (team.id === sortedTeams[2].id) card.classList.add("rank-3");
+        else if (sortedTeams[1] && team.id === sortedTeams[1].id) card.classList.add("rank-2");
+        else if (sortedTeams[2] && team.id === sortedTeams[2].id) card.classList.add("rank-3");
 
         card.innerHTML = `
             <div class="team-name">${team.name}</div>
@@ -78,11 +79,11 @@ function renderScoreboard() {
     document.getElementById("current-team-display").innerText = teams[currentTeamIndex].name;
 }
 
-// 3. TẠO 25 Ô CHỮ TRÊN BÀN CỜ LẬT
+// 3. TẠO 12 Ô TRÊN BÀN CỜ LẬT
 function generateGridBoard() {
     const board = document.getElementById("grid-board");
     board.innerHTML = "";
-    for (let i = 1; i <= 25; i++) {
+    for (let i = 1; i <= 12; i++) {
         const cell = document.createElement("div");
         cell.className = "grid-cell";
         cell.id = `cell-${i}`;
@@ -96,7 +97,7 @@ function generateGridBoard() {
 function handleCellClick(cellNumber) {
     currentSelectedCell = cellNumber;
     
-    // Lấy câu hỏi tương ứng trong mảng dữ liệu (vòng lặp tuần hoàn nếu mảng ít hơn 25)
+    // Lấy câu hỏi tương ứng trong mảng dữ liệu (vòng lặp tuần hoàn nếu mảng ít hơn 12)
     currentQuestion = questionsData[(cellNumber - 1) % questionsData.length];
     
     // Reset cấu hình trạng thái câu hỏi mới
@@ -143,7 +144,7 @@ function openPowerModal() {
             desc.innerText = `Lượt lựa chọn của ${currentTeamName}. Trả lời đúng cộng 10 điểm, sai không bị trừ điểm nhưng các nhóm khác có quyền cướp.`;
             break;
         case "speedup":
-            title.innerText = "CÂU TĂNG TỐC";
+            title.innerText = "CÂU TĂNG TỐ";
             icon.innerText = "⚡";
             desc.innerText = `Cơ hội bứt phá! Trả lời đúng cộng thẳng 20 điểm. Trả lời sai không trừ điểm. Các nhóm khác cướp đúng nhận 10 điểm.`;
             break;
@@ -152,13 +153,13 @@ function openPowerModal() {
             if (currentTeamScore < 10) {
                 title.innerText = "CÂU ĐẶT CƯỢC - BỎ QUA";
                 icon.innerText = "🚫";
-                desc.innerText = `${currentTeamName} có ${currentTeamScore} điểm (< 10 điểm). Điều kiện không đủ để cược, lượt này tự động bỏ qua. Ô sẽ được mở và chuyển sang đội khác!`;
+                desc.innerText = `${currentTeamName} có ${currentTeamScore} điểm (< 10 điểm). Điều kiện không đủ để cược, lượt này tự động bỏ qua.`;
                 // Thêm flag để xử lý skip trong closePowerAndOpenQuestion
                 currentQuestion.skipBet = true;
             } else {
                 title.innerText = "CÂU ĐẶT CƯỢC";
                 icon.innerText = "🎲";
-                desc.innerText = `${currentTeamName} lật trúng ô Đặt cược! Hãy chọn mức điểm cược trước khi xem câu hỏi. Đúng cộng bằng số điểm cược, sai TRỪ tương ứng!`;
+                desc.innerText = `${currentTeamName} lật trúng ô Đặt cược! Hãy chọn mức điểm cược trước khi xem câu hỏi. Đúng cộng bằng số điểm cược, sai bị trừ bằng số điểm cược.`;
                 
                 // Tính toán và hiển thị các mức cược hợp lệ
                 const validAmounts = calculateValidBetAmounts(currentTeamScore);
@@ -177,7 +178,7 @@ function openPowerModal() {
         case "steal":
             title.innerText = "CÂU CƯỚP ĐIỂM";
             icon.innerText = "⚔️";
-            desc.innerText = `Ô độc quyền kích hoạt! Trả lời đúng nhận 10 điểm và cướp 10 điểm của 1 đội khác (Tổng điểm nhận là 20 điểm). Trả lời sai ${currentTeamName} bị TRỪ 10 điểm!`;
+            desc.innerText = `Ô độc quyền kích hoạt! Trả lời đúng nhận 10 điểm và cướp 10 điểm của 1 đội khác (Tổng điểm nhận là 20 điểm). Trả lời sai sẽ bị trừ 10 điểm.`;
             
             // Render danh sách các đội hợp lệ để cướp (điểm >= 10 và không phải chính mình)
             const targetSelect = document.getElementById("steal-target-team");
@@ -202,12 +203,12 @@ function openPowerModal() {
         case "lucky":
             title.innerText = "HỘP QUÀ MAY MẮN";
             icon.innerText = "🎁";
-            desc.innerText = `Tuyệt vời! ${currentTeamName} nhận được quà may mắn trực tiếp từ hệ thống, nhận ngay +15 điểm mà không cần thực hiện thử thách nào!`;
+            desc.innerText = `Tuyệt vời! ${currentTeamName} nhận được quà may mắn trực tiếp từ hệ thống, nhận ngay +15 điểm mà không cần thực hiện thử thách.`;
             break;
         case "mine":
             title.innerText = "CÂU DÍNH MÌN";
             icon.innerText = "💣";
-            desc.innerText = `${currentTeamName} lật trúng ô Dính mìn! Nếu trả lời SAI sẽ bị TRỪ 10 điểm. Trả lời đúng thì không sao - không cộng điểm nhưng thoát chết!`;
+            desc.innerText = `${currentTeamName} lật trúng ô Dính mìn! Nếu trả lời SAI sẽ bị TRỪ 10 điểm. Trả lời đúng thì không sao - không cộng điểm nhưng tránh bị trừ.`;
             break;
     }
 
@@ -395,7 +396,7 @@ function handleMainTeamTimeout() {
         optionsButtons[currentQuestion.correct].classList.add("correct-choice");
     }
 
-    statusText.innerHTML = `<span style="color:#c92a2a;">HẾT GIỜ TRẢ LỜI!</span>`;
+    statusText.innerHTML = `<span style=\"color:#c92a2a;\">HẾT GIỜ TRẢ LỜI!</span>`;
 
     if (currentQuestion.type === "bet") {
         currentTeam.score -= currentBetAmount;
@@ -609,7 +610,7 @@ function finishQuestionTurn() {
     checkGameEnd();
 }
 
-// CHUYỂN INDEX LƯỢT ĐỘI CHƠI (HẾT NHÓM 5 QUAY LẠI NHÓM 1)
+// CHUYỂN INDEX LƯỢT ĐỘI CHƠI (HẾT SỐ ĐỘI QUAY LẠI ĐỘI 1)
 function nextTeamTurn() {
     currentTeamIndex = (currentTeamIndex + 1) % teams.length;
     renderScoreboard();
@@ -636,10 +637,10 @@ function submitSecretGuess(isCorrect) {
     closeModal("secret-guess-modal");
 }
 
-// 13. KIỂM TRA ĐIỀU KIỆN HẾT TOÀN BỘ 25 Ô ĐỂ HIỆN BXH CHUNG CUỘC
+// 13. KIỂM TRA ĐIỀU KIỆN HẾT TOÀN BỘ 12 Ô ĐỂ HIỆN BXH CHUNG CUỘC
 function checkGameEnd() {
     const totalOpened = document.querySelectorAll(".grid-cell.opened").length;
-    if (totalOpened === 25) {
+    if (totalOpened === 12) {
         setTimeout(() => {
             showPodium();
         }, 1200);
